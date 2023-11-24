@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <title>M8_UF5_Pt6_Naranjo</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Culturisme</h1>
+    </header>
+
+    <section>
+        <div class="columna">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inici</a></li>
+                    <li><a href="HistoriaDelCulturisme.html">Historia del Culturisme</a></li>
+                    <li><a href="TIpusDeCompeticions.html">Tipus de competicions</a></li>
+                    <li><a href="galeria.html">Galeria</a></li>
+                    <li><a class="active" href="formulari.html">Formulari</a></li>
+                </ul>
+            </nav>
+        </div>
+        <article>
+            <form action="gracies.html" method="get" name="formulari" id="formulari">
+                <fieldset>
+                    <legend>Formulari Culturisme</legend>
+                    <label for="Pregunta1">-Quin es el culturista que més t'agrada de la galería?</label><br>
+                    <input type="radio" name="cultu" id="JoanPradells" value="Joan Pradells" checked>Joan Pradells<br>
+                    <input type="radio" name="cultu" id="Ronnie" value="Ronnie Coleman" checked>Ronnie Coleman<br>
+                    <input type="radio" name="cultu" id="FrankZane" value="FrankZane" checked>Frank Zane<br>
+                    <input type="radio" name="cultu" id="ArnoldGaleria" value="Arnold" checked>Arnold Schwarzenegger<br>
+                    <input type="radio" name="cultu" id="ChrisBumstead" value="ChrisBumstead" checked>Chris Bumstead<br>
+                    <input type="radio" name="cultu" id="LeeHaney" value="LeeHaney" checked>LeeHaney<br>
+                    <label for="Pregunta2">-Que t'agrada més el culturisme femení o el masculí?</label><br>
+                    <input type="radio" name="cultur" id="femeni" value="CulturismeFemeni" checked>Culturisme femení<br>
+                    <input type="radio" name="cultur" id="masculi" value="CulturismeMasculi" checked>Culturisme
+                    masculí<br>
+                    <input type="radio" name="cultur" id="elsdos" value="Totsdos" checked>Els dos<br>
+                    <label for="Tipus de competicio">-Quina és el tipus de competició que més t'agrada?</label>
+                    <input type="text" id="Pregunta3" name="CompetenciaFavorita"
+                        placeholder="Competència Favorita del culturisme"><br>
+                    <label for="Tipus de competicio">-T'agrada la historia que te el culturisme?</label>
+                    <input type="text" id="Pregunta4" name="HistoriaDelCulturismePregunta"
+                        placeholder="Respon amb sí o no"><br>
+                    <label for="Tipus de competicio">-Quin es el teu culturista favorit?</label>
+                    <input type="text" id="Pregunta5" name="CulturistaFavorit"
+                        placeholder="Diga'm el teu culturista favorit"><br>
+                </fieldset>
+                <fieldset>
+                    <legend>Informa de qualsevol aspecte per millorar la nostra web</legend>
+                    <label for="Aspectes a millorar">Aspectes a millorar:</label>
+                    <input type="text" id="AspectesAMillorar" name="Aspectes a millorar"
+                        placeholder="Indica qualsevol aspecte a millorar per a la nostra web"><br>
+                    <label for="Problemes">Problemes:</label>
+                    <input type="text" id="Problemes" name="Problemes"
+                        placeholder="Indica qualsevol problema que tinguis en la nostra web"><br>
+                    <label for="observacions">Observacions:</label>
+                    <input type="text" id="observacions" name="observacions"
+                        placeholder="Indica les teves observacions"><br>
+                </fieldset><br>
+                <fieldset>
+                    <legend></legend>
+                    <button type="submit" id="submit">Envia Formulari</button>
+                    <button type="reset" id="reset">Esborra Formulari</button>
+                </fieldset>
+            </form>
+        </article>
+    </section>
+
+    <footer>
+        <p>Ian Naranjo</p>
+    </footer>
+</body>
+
+</html>
